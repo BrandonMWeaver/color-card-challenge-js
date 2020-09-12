@@ -1,0 +1,14 @@
+.Card {
+    display: inline-block;
+    margin: 5px 0 0 5px;
+    padding: 0;
+    width: calc(20% - 5px);
+    height: 300px;
+}
+
+.Card h5 {
+    margin: 5px 5px 0 5px;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+}
