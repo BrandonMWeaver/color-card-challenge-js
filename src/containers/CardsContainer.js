@@ -5,9 +5,9 @@ import Card from '../components/Card';
 const CardsContainer = props => {
     return (
         <div className="CardsContainer">
-        {props.colors.map((color, index) => {
+        {props.colorData.map((colorDatum, index) => {
             return (
-                <Card key={index} color={color} />
+                <Card key={index} colorDatum={colorDatum} />
             );
         })}
         </div>

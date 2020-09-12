@@ -2,8 +2,8 @@ import React from 'react';
 
 const Card = props => {
     return (
-        <div className="Card" style={{ backgroundColor: props.color }}>
-            <h5>{props.color}</h5>
+        <div className="Card" style={{ backgroundColor: props.colorDatum.color }}>
+            <h5>{props.colorDatum.color}</h5>
         </div>
     );
 }
